@@ -1,0 +1,42 @@
+.container {
+  padding-inline: var(--horizontal-space);
+  max-width: 70%;
+  margin: 0 auto;
+  margin-block: var(--vertical-space);
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.createdAt {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+}
+.category {
+  padding: .2rem .4rem;
+  background-color: rgba(0, 128, 128, .4);
+  border-radius: .75rem;
+  width: fit-content;
+}
+.extra-info {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  background-color: var(--off-white);
+  padding: .75rem 1.25rem;
+  border-radius: 1.25rem;
+}
+.extra-info > span {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.extra-info > span > svg {
+  stroke-width: 1;
+}

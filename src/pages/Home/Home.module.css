@@ -1,0 +1,15 @@
+.hero {
+  min-height: 50vh;
+  background-color: var(--accent-color);
+  padding-inline: var(--horizontal-space); 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 3rem;
+}

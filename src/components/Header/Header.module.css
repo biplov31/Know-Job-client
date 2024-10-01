@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--accent-color);
+  padding-inline: var(--horizontal-space);
+  padding-block: 1.5rem;
+  color: #fff;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .3rem;
+}
+.logo > span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+nav {
+  min-width: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+nav > a {
+  transition: color .4s ease;
+}
+nav > a:hover {
+  color: #000;
+}
+a.active {
+  color: #000;
+}

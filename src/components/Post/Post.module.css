@@ -1,0 +1,29 @@
+.card {
+  background-color: #fafafa;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  border: 2px solid var(--off-white);
+}
+.category {
+  padding: .2rem .4rem;
+  background-color: rgba(0, 128, 128, .4);
+  border-radius: .75rem;
+  width: fit-content;
+}
+.extra-info {
+  display: flex;
+  gap: 1rem;
+}
+.extra-info > span {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.extra-info > span > svg {
+  stroke-width: 1;
+}

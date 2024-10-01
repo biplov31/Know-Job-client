@@ -1,0 +1,23 @@
+section.list-container {
+  padding-inline: var(--horizontal-space);
+  margin-block: var(--vertical-space);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.list-container > h2 {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.view-more-btn {
+  font-size: .75rem;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+}

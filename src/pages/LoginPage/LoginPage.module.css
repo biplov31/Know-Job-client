@@ -1,0 +1,62 @@
+.container {
+  padding-inline: var(--horizontal-space);
+  padding-block: var(--vertical-space);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.container h2 {
+  color: var(--accent-color);
+}
+.login-form {
+  background-color: var(--off-white);
+  width: 60%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: 0px 3px 4px rgb(0, 0, 0, .4);
+  border-radius: 1.5rem;
+}
+.login-form > svg {
+  height: 4rem;
+  width: 4rem;
+  display: block;
+  margin: 0 auto;
+  fill: var(--accent-color);
+}
+.field {
+  width: 80%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.label {
+  width: 30%;
+}
+.input {
+  width: 65%;
+  border-radius: .5rem;
+  border: none;
+  padding: .5rem;
+  text-indent: .5rem;
+}
+.login-form button {
+  margin: 0 auto;
+  background-color: var(--accent-color);
+  padding: .75rem;
+  border-radius: .75rem;
+  color: #fff;
+  border: none;
+  width: 50%;
+}
+.error {
+  display: block;
+  width: 100%;
+  color: red;
+  font-size: .75rem;
+}
